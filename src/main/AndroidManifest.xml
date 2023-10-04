@@ -10,9 +10,6 @@
         <meta-data android:name="com.google.ar.core" android:value="required" />
         <activity android:name="com.unity3d.player.UnityPlayerActivity" android:exported="true"
                   android:theme="@style/UnityThemeSelector">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
         </activity>
     </application>
